@@ -56,6 +56,8 @@ public class Application {
 					business.setName(results.getString("name"));
 					business.setAddress(results.getString("address"));
 					business.setAddress2(results.getString("address2"));
+					business.setState(results.getString("state"));
+					business.setZip(results.getString("zip"));
 					business.setCity(results.getString("city"));
 					business.setCountry(results.getString("country"));
 					business.setPhone(results.getString("phone"));
